@@ -20,7 +20,5 @@ for file_name in os.listdir(cwd):
     # Add the dictionary to the list
     dict_list.append(dict_file)
     
-    
-    
     print(dict_list, sep="\n") 
 
