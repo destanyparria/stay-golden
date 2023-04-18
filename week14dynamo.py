@@ -25,7 +25,7 @@ response = dynamodb.create_table(
             'KeyType': 'RANGE' #The RANGE keytype sets "Episode" as the sort key
         }
     ],
-    ProvisionedThroughput={ 
+    ProvisionedThroughput={ #This gives the maximum read and right capacity for an application on the table
         'ReadCapacityUnits': 1,
         'WriteCapacityUnits': 1,
     },
