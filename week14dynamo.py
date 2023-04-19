@@ -12,7 +12,7 @@ response = dynamodb.create_table(
         },
         {
             'AttributeName': 'Episode',
-            'AttributeType': 'N'
+            'AttributeType': 'S'
         }
     ],
     KeySchema=[
