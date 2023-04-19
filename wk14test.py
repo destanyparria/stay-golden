@@ -7,12 +7,12 @@ table = dynamodb.Table('The_Office_Episodes')
 
 #Add the items to our table
 with table.batch_writer() as batch: 
-    #batch.put_item(
-    #   Item={
-    #        'Season': 1,
-    #        'Episode': 'Basketball'
-    #    }
-    #)
+    batch.put_item(
+        Item={
+            'Season': 1,
+            'Episode': 'Basketball'
+        }
+    )
     batch.put_item(
         Item={
             'Season': 1,
