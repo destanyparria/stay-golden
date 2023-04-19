@@ -1,8 +1,7 @@
 import boto3
 
-dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-
 #Connect with the table
+dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
 table = dynamodb.Table('The_Office_Episodes')
 
 #Add the items to our table
