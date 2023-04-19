@@ -29,8 +29,7 @@ response = dynamodb.create_table(
         'ReadCapacityUnits': 1,
         'WriteCapacityUnits': 1,
     },
-    TableName='The_Office', #Gives the table a name
+    TableName='The_Office_Episodes', #Gives the table a name
 )
 
 print(response)
-print("Table status:", response.table_status)
