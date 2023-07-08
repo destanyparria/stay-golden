@@ -1,1 +1,1 @@
-# stay-golden will be used for completing python tasks with AWS services. 
+# stay-golden will be used for completing tasks with AWS services. 
