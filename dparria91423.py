@@ -1,4 +1,4 @@
-# This program says hello and asks for name and age
+# This program reviews saying hello and asks for name and age
 
 print('Hello world!')
 
